@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru" class="bg-page">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ll1llk — Сайты на заказ</title>
+  <meta name="description" content="Делаю сайты на заказ: лендинги, интернет-магазины, сайты под ключ. Дизайн, анимации, скорость. Instagram: @ll1llk_kz" />
+  <meta name="theme-color" content="#141414" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-info">
+      <span class="preloader-label">ll1llk — portfolio</span>
+      <span class="preloader-sub">loading experience</span>
+    </div>
+    <span class="preloader-count"><span id="preloader-num">0</span><span class="preloader-percent">%</span></span>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <nav class="nav">
+      <a href="#top" class="nav-logo">
+        <span class="nav-dot" aria-hidden="true"></span>
+        <span class="nav-name">ll1llk</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#work" class="nav-link">Видение</a></li>
+        <li><a href="#about" class="nav-link">Обо мне</a></li>
+        <li><a href="#contact" class="nav-link">Контакт</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-content" id="hero-content">
+        <p class="hero-eyebrow reveal-fade" style="--d: 3.4s">// ll1llk — веб-разработка на заказ</p>
+        <h1 class="hero-title">
+          <span class="line-mask"><span class="line reveal-line hero-line-muted" style="--d: 3.5s">Делаю</span></span>
+          <span class="line-mask"><span class="line reveal-line hero-line-primary" style="--d: 3.65s">сайты</span></span>
+          <span class="line-mask"><span class="line reveal-line text-stroke" style="--d: 3.8s">на заказ.</span></span>
+        </h1>
+        <p class="hero-desc reveal-fade" style="--d: 4.2s">
+          Лендинги, интернет-магазины и сайты под ключ — с дизайном, анимациями и скоростью,
+          которые продают. Пишите в Instagram, обсудим ваш проект.
+        </p>
+        <a href="https://instagram.com/ll1llk_kz" target="_blank" rel="noopener noreferrer" class="hero-cta reveal-fade" style="--d: 4.4s" data-cursor="pointer">
+          Заказать сайт
+          <span class="hero-cta-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
+      <div class="scroll-hint reveal-fade" style="--d: 4.6s">
+        <span class="scroll-hint-text">scroll</span>
+        <span class="scroll-hint-line" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+      <div class="marquee-track" id="marquee-track">
+        <!-- items duplicated by JS -->
+      </div>
+    </div>
+
+    <!-- Vision / Work -->
+    <section class="work" id="work">
+      <div class="work-head">
+        <div class="line-mask">
+          <h2 class="work-title line" data-reveal="line">Каким может быть твой сайт<span class="accent">.</span></h2>
+        </div>
+        <span class="work-counter" data-reveal="fade">видение / 04</span>
+      </div>
+
+      <div class="work-grid">
+        <article class="card" data-reveal="card" data-cursor="pointer">
+          <div class="card-inner">
+            <div class="card-media">
+              <img src="images/project-neon.png" alt="Лендинг, который запоминают с первого экрана" loading="lazy" />
+              <div class="card-overlay" aria-hidden="true"></div>
+              <div class="card-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </div>
+            </div>
+            <div class="card-meta">
+              <div>
+                <h3 class="card-title">ТВОЙ БРЕНД</h3>
+                <p class="card-cat">Лендинг, который запоминают с первого экрана</p>
+              </div>
+              <span class="card-tag">01</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-reveal="card" data-cursor="pointer">
+          <div class="card-inner">
+            <div class="card-media">
+              <img src="images/project-terminal.png" alt="Интерфейс, в котором хочется остаться" loading="lazy" />
+              <div class="card-overlay" aria-hidden="true"></div>
+              <div class="card-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </div>
+            </div>
+            <div class="card-meta">
+              <div>
+                <h3 class="card-title">ТВОЙ СЕРВИС</h3>
+                <p class="card-cat">Интерфейс, в котором хочется остаться</p>
+              </div>
+              <span class="card-tag">02</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-reveal="card" data-cursor="pointer">
+          <div class="card-inner">
+            <div class="card-media">
+              <img src="images/project-waves.png" alt="Сайт, который рассказывает историю за тебя" loading="lazy" />
+              <div class="card-overlay" aria-hidden="true"></div>
+              <div class="card-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </div>
+            </div>
+            <div class="card-meta">
+              <div>
+                <h3 class="card-title">ТВОЯ ИСТОРИЯ</h3>
+                <p class="card-cat">Сайт, который рассказывает её за тебя</p>
+              </div>
+              <span class="card-tag">03</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-reveal="card" data-cursor="pointer">
+          <div class="card-inner">
+            <div class="card-media">
+              <img src="images/project-chrome.png" alt="Дизайн, который выглядит дороже конкурентов" loading="lazy" />
+              <div class="card-overlay" aria-hidden="true"></div>
+              <div class="card-arrow" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </div>
+            </div>
+            <div class="card-meta">
+              <div>
+                <h3 class="card-title">ТВОЙ УРОВЕНЬ</h3>
+                <p class="card-cat">Дизайн, который выглядит дороже конкурентов</p>
+              </div>
+              <span class="card-tag">04</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <p class="section-eyebrow">// почему я</p>
+      <p class="about-words" id="about-words">
+        Ваш сайт — это первое впечатление о бизнесе. Я делаю сайты, которые выглядят дорого, грузятся быстро и превращают посетителей в клиентов.
+      </p>
+      <div class="stats" id="stats">
+        <div class="stat" data-reveal="stat">
+          <span class="stat-value">100%</span>
+          <span class="stat-label">вовлечённость в проект</span>
+        </div>
+        <div class="stat" data-reveal="stat">
+          <span class="stat-value">&lt;1с</span>
+          <span class="stat-label">скорость загрузки</span>
+        </div>
+        <div class="stat" data-reveal="stat">
+          <span class="stat-value">24/7</span>
+          <span class="stat-label">на связи</span>
+        </div>
+        <div class="stat" data-reveal="stat">
+          <span class="stat-value">&infin;</span>
+          <span class="stat-label">правок до идеала</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="contact-content">
+        <p class="section-eyebrow" data-reveal="fade">// нужен сайт?</p>
+        <div class="line-mask">
+          <h2 class="contact-title line" data-reveal="line">Закажи свой</h2>
+        </div>
+        <div class="line-mask">
+          <h2 class="contact-title contact-title-accent line" data-reveal="line" style="--rd: 0.12s">сайт</h2>
+        </div>
+        <a href="https://instagram.com/ll1llk_kz" target="_blank" rel="noopener noreferrer" class="contact-cta" data-reveal="fade" style="--rd: 0.5s" data-cursor="pointer">
+          @ll1llk_kz
+          <svg class="contact-cta-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-copy">© 2026 ll1llk — все права защищены</span>
+      <ul class="footer-links">
+        <li>
+          <a href="https://instagram.com/ll1llk_kz" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram — @ll1llk_kz</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
